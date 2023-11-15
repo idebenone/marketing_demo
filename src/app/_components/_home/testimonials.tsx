@@ -61,7 +61,9 @@ export const Testimonials = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className=" text-muted-foreground">"{val.message}"</p>
+                <p className=" text-muted-foreground">
+                  &quot;{val.message}&quot;
+                </p>
               </CardContent>
             </Card>
           ))}
