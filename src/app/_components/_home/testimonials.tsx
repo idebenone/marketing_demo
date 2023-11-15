@@ -14,7 +14,7 @@ export const Testimonials = () => {
     {
       name: "Arya Rajurkar",
       message:
-        "One of the best startup investment platforms in Indi I’m a student and can invest right from ₹1000 itself. Very nice.",
+        "One of the best startup investment platforms in Indi I&apos;m a student and can invest right from ₹1000 itself. Very nice.",
     },
     {
       name: "Shubhangi Sarin",
