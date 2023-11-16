@@ -53,7 +53,7 @@ export function NavBar() {
   const [state, setState] = React.useState(false);
   return (
     <>
-      <div className="hidden sm:flex p-3 md:px-6 lg:px-12 w-full justify-between fixed bg-white-500 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-60 border border-b-black-800">
+      <div className="hidden sm:flex p-3 md:px-6 lg:px-12 w-full justify-between fixed bg-white-500 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-60 border border-b-black-800 z-[99999]">
         <Link href="/">
           <Logo />
         </Link>
@@ -89,7 +89,7 @@ export function NavBar() {
         </div>
       </div>
 
-      <div className="sm:hidden p-2 flex justify-between">
+      <div className="sm:hidden p-2 flex justify-between w-full fixed bg-white-500 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-60 border border-b">
         <Button variant="outline" size="sm" onClick={() => setState(!state)}>
           <HamburgerMenuIcon />
         </Button>

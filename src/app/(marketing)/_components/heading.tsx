@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export const Heading = () => {
   return (
-    <div className="min-h-[600px] flex flex-col justify-center items-center gap-4">
+    <div className="min-h-[800px] flex flex-col justify-center items-center gap-4">
       <div className="w-full flex flex-col gap-4 justify-center items-center text-center">
         <h1 className="text-4xl md:text-6xl font-bold">Invest in startups</h1>
         <p className="text-md md:text-2xl font-medium text-muted-foreground">

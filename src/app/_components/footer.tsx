@@ -6,7 +6,7 @@ import { Logo } from "./logo";
 
 export const Footer = () => {
   return (
-    <div className="px-3 md:px-6 lg:px-12 mt-8 lg:mt-16">
+    <div className="p-3 md:px-6 lg:px-12 mt-8 lg:mt-16 bg-gray-900">
       <div className="flex flex-col gap-8 lg:gap-0 lg:flex-row justify-between py-4">
         <div className="w-1/2">
           <Logo />
