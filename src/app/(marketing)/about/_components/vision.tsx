@@ -40,9 +40,9 @@ export const Vision = () => {
     <div className="flex flex-col gap-4 justify-center items-center text-center">
       <p className="text-2xl md:text-4xl font-semibold">Our Vision</p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 mt-12 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 mt-6 ">
         {card.map((val, ind) => (
-          <Card key={ind} className="min-h-[300px] max-w-[400px]">
+          <Card key={ind} className="md:min-h-[300px] max-w-[400px]">
             <CardHeader>
               <CardTitle className="text-xl md:text-3xl">
                 {val.cardHead}

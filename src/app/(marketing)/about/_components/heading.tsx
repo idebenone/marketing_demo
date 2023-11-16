@@ -6,7 +6,7 @@ export const Heading = () => {
   return (
     <>
       <div className="min-h-[900px] flex flex-col justify-center items-center gap-4">
-        <div className="w-2/3 flex flex-col gap-4 justify-center items-center text-center">
+        <div className="md:w-2/3 flex flex-col gap-4 justify-center items-center text-center">
           <h1 className="text-4xl md:text-6xl font-bold">
             Opening up access of Angel Investing to Everyone
           </h1>
@@ -24,7 +24,7 @@ export const Heading = () => {
       </div>
 
       <div className="min-h-[900px] flex flex-col justify-center items-center gap-4 ">
-        <div className="w-2/3 flex flex-col gap-4 justify-center items-center text-center">
+        <div className="md:w-2/3 flex flex-col gap-4 justify-center items-center text-center">
           <h1 className="text-4xl md:text-6xl font-bold">
             Opening oppurtunities
           </h1>
