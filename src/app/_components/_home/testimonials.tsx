@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import {
   Card,
   CardContent,
@@ -52,13 +53,23 @@ export const Testimonials = () => {
         <p className="text-sm md:text-lg text-muted-foreground">
           Hear it from the Investors of our Startup Community
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 mt-12">
           {testimonials.map((val, ind) => (
             <Card key={ind} className="min-h-[150px] lg:max-w-[400px]">
               <CardHeader>
                 <CardTitle className="text-xl  sm:text-3xl">
                   {val.name}
                 </CardTitle>
+                <CardDescription className="flex justify-center w-full">
+                  <Image
+                    src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg"
+                    alt="Ratings"
+                    height="100"
+                    width="100"
+                    className="mt-2"
+                  />
+                </CardDescription>
               </CardHeader>
               <CardContent>
                 <p className=" text-muted-foreground">

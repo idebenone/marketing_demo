@@ -11,11 +11,7 @@ export const Faq = () => {
   const faq = [
     {
       q: "Who are we?",
-      a: "Pepcorns is a fundraising platform, through which startups can raise capital from anybody, providing a medium for potential startups/brands and investors to collaborate, work, and grow together.",
-    },
-    {
-      q: "When was Pepcorns founded? Where is Pepcorns incorporated/registered?",
-      a: "On ideation of 1.5 years, Pepcorns is now registered as Pepcorns Technologies Pvt Ltd since July 2022 at the Registrar of Companies, Kanpur",
+      a: "Pepcorns is a fundraising platform, through which startups can raise capital from anybody, providing a medium for potential startups/brands and investors to collaborate, work, and grow together. On ideation of 1.5 years, Pepcorns is now registered as Pepcorns Technologies Pvt Ltd since July 2022 at the Registrar of Companies, Kanpur",
     },
     {
       q: "As an investor, what do I get if I invest in a startup?",
@@ -36,15 +32,24 @@ export const Faq = () => {
   ];
   return (
     <>
-      <div className="flex flex-col lg:items-center">
-        {faq.map((val, ind) => (
-          <Accordion key={ind} type="single" collapsible className="lg:w-3/6">
-            <AccordionItem value="item-1">
-              <AccordionTrigger>{val.q}</AccordionTrigger>
-              <AccordionContent>{val.a}</AccordionContent>
-            </AccordionItem>
-          </Accordion>
-        ))}
+      <div className="flex flex-col gap-4">
+        <p className="text-2xl md:text-4xl font-semibold text-center">
+          Frequently asked questions
+        </p>
+        <p className="text-sm md:text-lg text-muted-foreground text-center">
+          We have already answered some commonly asked questions by you
+        </p>
+
+        <div className="mt-12 flex flex-col lg:items-center">
+          {faq.map((val, ind) => (
+            <Accordion key={ind} type="single" collapsible className="lg:w-3/6">
+              <AccordionItem value="item-1">
+                <AccordionTrigger>{val.q}</AccordionTrigger>
+                <AccordionContent>{val.a}</AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          ))}
+        </div>
       </div>
     </>
   );

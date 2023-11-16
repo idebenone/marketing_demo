@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
 import { HamburgerMenuIcon, CrossCircledIcon } from "@radix-ui/react-icons";
 
@@ -16,7 +16,6 @@ import {
 import { Button } from "@/components/ui/button";
 import { ModeToggle } from "./mode-toggle";
 import { Logo } from "./logo";
-import { ChevronsLeft } from "lucide-react";
 
 const components: { title: string; href: string; description: string }[] = [
   {
@@ -54,7 +53,7 @@ export function NavBar() {
   const [state, setState] = React.useState(false);
   return (
     <>
-      <div className="hidden sm:flex p-3 md:px-6 lg:px-12 w-full justify-between">
+      <div className="hidden sm:flex p-3 md:px-6 lg:px-12 w-full justify-between fixed bg-white-500 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-60 border border-b-black-800">
         <Link href="/">
           <Logo />
         </Link>
