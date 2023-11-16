@@ -94,9 +94,9 @@ export const Investors = () => {
                   <li>
                     You decide which company deserves funding. Business success
                     earns you rewards and money. You lose all your money if it
-                    doesn't do well. Either way, you join a community of other
-                    investors 'the crazy ones' who are eager to help a startup
-                    succeed.​
+                    doesn&apos;t do well. Either way, you join a community of
+                    other investors &apos;the crazy ones&apos; who are eager to
+                    help a startup succeed.​
                   </li>
                 </ul>
               </div>
@@ -121,8 +121,8 @@ export const Investors = () => {
                   While building Pepcorns, our focus was on democratizing the
                   startup funding with fast transaction deal flows. Traditional
                   funding deals take months to finalize and execute. And so, we
-                  have made the process 'simple and minimal' with all necessary
-                  compliances.
+                  have made the process &apos;simple and minimal&apos; with all
+                  necessary compliances.
                 </p>
               </div>
               <hr />
@@ -131,7 +131,7 @@ export const Investors = () => {
                 <ul className="pl-5 list-disc mt-2 text-muted-foreground">
                   <li>
                     Sign up, and get your free account. Complete the required
-                    details to get started, and you're ready to drive the
+                    details to get started, and you&apos;re ready to drive the
                     change!
                   </li>
                   <li>
@@ -184,15 +184,15 @@ export const Investors = () => {
                   <br />
                   Super early-stage startups use SAFE notes(Simple Agreement for
                   Future Equity). These will convert your investment to stock at
-                  a later date if the company raises a "priced round" from major
-                  investors, most often venture capitalists. At this point, you
-                  are a shareholder owning equity, and you earn a return if the
-                  value of that stock goes up over time, and you are able to
-                  sell it.
+                  a later date if the company raises a &apos;priced round&apos;
+                  from major investors, most often venture capitalists. At this
+                  point, you are a shareholder owning equity, and you earn a
+                  return if the value of that stock goes up over time, and you
+                  are able to sell it.
                   <br />
                   <br /> ​​​​​​​​​If your reward is not equity, you get your
                   rewards, as your commitment freezes. And in a later stage,
-                  you'll receive returns as the company offers EXIT.​​
+                  you&apos;ll receive returns as the company offers EXIT.​​
                 </p>
               </div>
               <hr />
@@ -203,8 +203,8 @@ export const Investors = () => {
                 <p className="text-muted-foreground mt-2">
                   An investment brings you return if a certain trigger event
                   occurs, such as an acquisition, an IPO, or buyback. Trigger
-                  events sometimes occur sooner, but most don't occur for 4-6
-                  years, and some ​may ​take even longer.​ Startups are​​
+                  events sometimes occur sooner, but most don&apos;t occur for
+                  4-6 years, and some ​may ​take even longer.​ Startups are​​
                   illiquid, and so finding new buyers is challenging. It took
                   Ashish Gupta 9 years in Flipkart, ​and ​Infoedge 10 years in
                   Zomato for crazy EXIT.​​​​
@@ -217,11 +217,11 @@ export const Investors = () => {
                 <p className="text-muted-foreground mt-2">
                   Straight answer is Vaulation. The post money valuation of your
                   invested amount in startup, determines your return. A
-                  company's valuation aims to estimate its worth in the broader
-                  sense, and the value of a company can be determined by looking
-                  at many factors, such as the number of founders, business
-                  moat, potential growth trends, assets owned, cash flow,
-                  customer acquisition rate, and many more.
+                  company&apos;s valuation aims to estimate its worth in the
+                  broader sense, and the value of a company can be determined by
+                  looking at many factors, such as the number of founders,
+                  business moat, potential growth trends, assets owned, cash
+                  flow, customer acquisition rate, and many more.
                 </p>
               </div>
             </div>
@@ -263,9 +263,9 @@ export const Investors = () => {
                   It is important to invest in accordance with your risk
                   appetite, which should not negatively impact your daily life.
                   Invest in what you have more than conviction. Every idea
-                  doesn't turn Google, Tesla, Zomato, or Byzus but indeed which
-                  win-wins big. Always diversify, don't put all your money in
-                  one company instead put small chunks in multiple.
+                  doesn&apos;t turn Google, Tesla, Zomato, or Byzus but indeed
+                  which win-wins big. Always diversify, don&apos;t put all your
+                  money in one company instead put small chunks in multiple.
                 </p>
               </div>
               <hr />
